@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
+  s.static_framework = true
 
   s.subspec "Core" do |ss|
     ss.dependency 'TwilioSDK'
